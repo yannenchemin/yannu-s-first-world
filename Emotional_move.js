@@ -1,4 +1,4 @@
-//얀의 개인적인 마음
+//얀의 개인적인 감정
 let her;
 let he;
 let sad_gesture = 0;
