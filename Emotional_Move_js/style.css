@@ -6,26 +6,27 @@ html {
   background-color: #f0f0f0;
 }
 
-body {
+body { //이미지의 크기
   width: 1000px;
+  height: 500px;
   margin: auto;
   padding: 0;
   background-color: #151515;
 }
 
-#Title {
-  width: 360px;
-  height: 80px;
-  margin: 0;
-  padding: 50px;
+#Title { //타이틀 크기
+  width: 1000px;
+  height: 200px;
+  margin: 100;
+  padding: 100px;
   padding-bottom: 0px;
 
-  font-size: 20pt;
+  font-size: 50pt;
   font-weight: bold;
   text-align: center;
   color: #151515;
   background-color: #f0f0f0;
-font-family: 'Nanum Gothic Coding', monospace;
+  font-family: 'Nanum Gothic Coding', monospace;
 
   display: block;
 }
@@ -66,7 +67,7 @@ font-family: 'Nanum Gothic Coding', monospace;
 
 .Text {
   position: relative;
-  top: 645px;
+  top: 305px;
   width: 460px;
   height: 815px;
   padding-top: 40px;
@@ -86,7 +87,7 @@ font-family: 'Nanum Gothic Coding', monospace;
 
 canvas {
   position: relative;
-  top: -860px;
+  top: -360px;
   margin: 0;
   padding: 50px;
   padding-top: 5px;
