@@ -17,7 +17,7 @@ EmotionGirl.prototype.run = function() {
   }
 };
 //-------------------------------------------------------------------------
-let detail_of_mind_girl = function(position) { //내가 느끼는 그녀의 생각: 어쩌면 내가 그녀의 생각을 넘겨 짚는게 아닐까?
+let detail_of_mind_girl = function(position) { //내가 느끼는 그녀의 생각: 어쩌면 내가 그녀의 생각을 넘겨 짚는게 아닐까? 하지만 여기에 내가 그녀에게서 느껴지는 비가시적인 움직임을 표현해보겠다.
   this.acceleration = createVector(1, -0.1);
   this.share = createVector(random(-30, -35), random(-1, 6));
   this.position = position.copy();
