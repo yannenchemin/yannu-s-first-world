@@ -17,11 +17,11 @@ EmotionGirl.prototype.run = function() {
   }
 };
 //-------------------------------------------------------------------------
-let detail_of_mind_girl = function(position) {
-  this.acceleration = createVector(1, -0.1); //뿜어져나오는 힘,뿜어져나오는 각도
-  this.share = createVector(random(-30, -35), random(-1, 6)); //1번 파라미터는 좌우로 퍼지는 간격, 2번은 뿜어져나오는 통로굵기
+let detail_of_mind_girl = function(position) { //내가 느끼는 그녀의 생각: 어쩌면 내가 그녀의 생각을 넘겨 짚는게 아닐까?
+  this.acceleration = createVector(1, -0.1);
+  this.share = createVector(random(-30, -35), random(-1, 6));
   this.position = position.copy();
-  this.Exterior_or_insensitivity = 255; // 숫자가 적어질 수록 전체적으로 파티클이 흐려짐
+  this.Exterior_or_insensitivity = 255;
 };
 //-------------------------------------------------------------------------
 detail_of_mind_girl.prototype.run = function() {
@@ -32,7 +32,7 @@ detail_of_mind_girl.prototype.run = function() {
 detail_of_mind_girl.prototype.move = function() {
   this.share.add(this.acceleration);
   this.position.add(this.share);
-  this.Exterior_or_insensitivity -= 2 
+  this.Exterior_or_insensitivity -= 2
 
 };
 //-------------------------------------------------------------------------

@@ -18,7 +18,7 @@ EmotionBoy.prototype.run = function() {
 };
 //------------------------------------------------------------------------
 
-let detail_of_mind_boy = function(position) { // 나의 생각
+let detail_of_mind_boy = function(position) { // 나의 행동: 내가 그녀에게 무언가를 보여줬을까?
   this.acceleration = createVector(-0.1, 0.05);
   this.share = createVector(random(10, 15), random(-5, 1));
   this.position = position.copy();
