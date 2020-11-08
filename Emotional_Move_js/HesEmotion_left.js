@@ -47,5 +47,5 @@ detail_of_mind_boy.prototype.showMe = function() {
 //-------------------------------------------------------------------------
 
 detail_of_mind_boy.prototype.isfeel = function() {
-  return this.unrequited_love < 0;  //짝사랑
+  return this.unrequited_love < 0;  //짝사랑...
 };

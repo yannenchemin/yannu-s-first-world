@@ -16,12 +16,12 @@ body { //배경의 위치? (이게 캔버스같은데?)
 
 #Title { //타이틀 위치
   width: 600px;
-  height: 200px;
-  margin: 100;
-  padding: 100px;
+  height: 130px;
+  margin: 30;
+  padding: 50px;
   padding-bottom: 0px;
 
-  font-size: 35pt;
+  font-size: 20pt;
   font-weight: bold;
   text-align: center;
   color: #151515;
@@ -36,8 +36,8 @@ body { //배경의 위치? (이게 캔버스같은데?)
   height: 100px; //텍스트상자
   margin: 0;
   padding: 0px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
   font-weight: bold;
   text-align: center;
   font-family: 'Nanum Gothic Coding', monospace;
