@@ -3,19 +3,19 @@
 html {
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
 }
 
-body { //이미지의 크기
-  width: 1000px;
-  height: 500px;
+body { //배경의 위치? (이게 캔버스같은데?)
+  width: 100px;
+  height: 1000px;
   margin: auto;
-  padding: 0;
-  background-color: #151515;
+  padding: 0px;
+  background-color: #ffffff;
 }
 
-#Title { //타이틀 크기
-  width: 1000px;
+#Title { //타이틀 위치
+  width: 600px;
   height: 200px;
   margin: 100;
   padding: 100px;
@@ -25,73 +25,33 @@ body { //이미지의 크기
   font-weight: bold;
   text-align: center;
   color: #151515;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
   font-family: 'Nanum Gothic Coding', monospace;
 
   display: block;
 }
 
-.Text h6{
-  margin-top: 20px;
-  margin-bottom: 20px;
-
-  color: #151515;
-  text-align: center;
-  font-size: 20px;
-  font-weight: bold;
-  font-family: 'Nanum Gothic Coding', monospace;
-}
-
-.Text h5{
-  margin-top: 60px;
-  margin-bottom: 20px;
-
-  color: #151515;
-  text-align: center;
-  font-size: 20px;
-  font-weight: bold;
-  font-family: 'Nanum Gothic Coding', monospace;
-}
-
-.Text p{
-  padding-left: 70px;
-  padding-right: 70px;
-  line-height: 170%;
-
-  color: #151515;
-  text-align: justify;
-  font-size: 12px;
-  font-weight: bold;
-  font-family: 'Nanum Gothic Coding', monospace;
-}
-
-.Text {
-  position: relative;
-  top: 1000px;
-  width: 460px;
-  height: 815px;
-  padding-top: 40px;
+#Story{ //스토리
+  width: 600px; //텍스트상자
+  height: 100px; //텍스트상자
   margin: 0;
-  background-color: #f0f0f0;
-
-  color: #151515;
+  padding: 0px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-weight: bold;
   text-align: center;
-  font-size: 10px;
-  font-weight: 1000;
   font-family: 'Nanum Gothic Coding', monospace;
 
   display: block;
 }
 
-
-
-canvas {
+canvas { //p5의 이미지의 높낮이?
   position: relative;
-  top: -360px;
-  margin: 0;
-  padding: 50px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  background-color: #f0f0f0;
+  top: 500px;
+  margin: auto; //중앙에 놓기
+  padding: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
   display: block;
 }
