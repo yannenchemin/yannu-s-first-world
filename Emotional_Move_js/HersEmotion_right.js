@@ -25,7 +25,7 @@ let detail_of_mind_girl = function(position) { //내가 느끼는 그녀의 생�
 };
 //-------------------------------------------------------------------------
 detail_of_mind_girl.prototype.run = function() {
-  this.move();
+  this.move(); 
   this.ShowMe();
 };
 //-------------------------------------------------------------------------
